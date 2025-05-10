@@ -8,7 +8,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func _main() {
+func main() {
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
